@@ -52,10 +52,16 @@ body {
 .hero-container {
   display: flex;
   padding: 100px 200px;
-  gap: 16px;
+  gap: 300px;
   background-color: #1f2937;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
 .hero-main-text {
   font-size: 48px;
   font-weight: 900;
@@ -82,3 +88,5 @@ body {
   width: 600px;
   height: 400px;
 }
+
+/* INFORMATIONS */
