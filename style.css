@@ -84,6 +84,11 @@ nav {
   color: #e5e7eb;
 }
 
+.hero-button:hover {
+  background-color: #5d9bff;
+  cursor: pointer;
+}
+
 .hero-image {
   width: 600px;
   height: 400px;
@@ -199,8 +204,13 @@ p {
   font-size: 20px;
   font-weight: 700;
   padding: 12px 32px;
-  border: 2px solid #f9faf8;
+  border: 3px solid #f9faf8;
   border-radius: 10px;
+}
+
+.newsletter-button:hover {
+  background-color: #5d9bff;
+  cursor: pointer;
 }
 
 /* FOOTER */
