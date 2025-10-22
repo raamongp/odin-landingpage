@@ -1,0 +1,48 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 0 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-texto {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.links li:last-child a {
+  border: 2px solid white;
+  border-radius: 18px;
+  padding: 8px 16px;
+}
