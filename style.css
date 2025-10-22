@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 /* NAVBAR */
-.navbar {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -201,4 +201,16 @@ p {
   padding: 12px 32px;
   border: 2px solid #f9faf8;
   border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 200px;
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #f9faf8;
+  font-weight: 700;
 }
